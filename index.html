@@ -13,17 +13,29 @@
     header .wrap, main, footer .wrap { max-width:1050px; margin:0 auto; }
     h1 { font-size:2.4rem; margin:0 0 .75rem; line-height:1.15; }
     h2 { color:var(--navy); margin-top:2.4rem; }
+    h3 { color:var(--navy); }
     .tagline { max-width:780px; font-size:1.15rem; }
     .meta { margin-top:1rem; opacity:.9; }
     main { padding:2.2rem 1.5rem 4rem; }
     .notice { background:#fff8df; border-left:5px solid #d5a500; padding:1rem 1.2rem; margin:1.5rem 0; }
     .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:1rem; }
     .card { border:1px solid var(--border); border-radius:10px; padding:1.2rem; background:var(--light); }
-    .card h3 { margin-top:0; color:var(--navy); }
+    .card h3 { margin-top:0; }
+    .dashboard-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(420px,1fr)); gap:1.25rem; }
+    .dashboard-card { border:1px solid var(--border); border-radius:10px; padding:1rem; background:#fff; }
+    .dashboard-card h3 { margin:.1rem 0 .35rem; }
+    .dashboard-card p { margin:.25rem 0 .9rem; }
+    .scope-label { display:inline-block; margin-bottom:.65rem; padding:.25rem .55rem; border-radius:999px; background:#e7f0fa; color:var(--navy); font-weight:bold; font-size:.86rem; }
     a.button { display:inline-block; margin:.35rem .4rem .35rem 0; padding:.65rem .9rem; border-radius:6px; background:var(--blue); color:#fff; text-decoration:none; font-weight:bold; }
     a.button.secondary { background:var(--navy); }
+    a.image-link { display:block; }
     img { max-width:100%; border:1px solid var(--border); border-radius:8px; }
+    .pilot { margin-top:1.25rem; }
     footer { background:#eef3f8; padding:1.5rem; border-top:1px solid var(--border); font-size:.92rem; }
+    @media (max-width:600px) {
+      h1 { font-size:2rem; }
+      .dashboard-grid { grid-template-columns:1fr; }
+    }
   </style>
 </head>
 <body>
@@ -59,14 +71,49 @@
     </section>
   </div>
 
+  <h2>Dashboard scope</h2>
+  <p>AHIP includes three nationwide decision-support dashboards covering housing affordability and need, housing supply and development trends, and priority-area identification. These dashboards use national public datasets and support state and county filtering where the underlying data are available. A fourth dashboard presents a 2025 Miami-Dade County residential permitting pilot. The Miami-Dade pilot demonstrates how the AHIP framework can be adapted for local operational analysis and is not the geographic limit of AHIP.</p>
+
+  <h2>Nationwide decision-support dashboards</h2>
+  <div class="dashboard-grid">
+    <section class="dashboard-card">
+      <span class="scope-label">Nationwide dashboard 1</span>
+      <h3>Housing Affordability and Housing Need</h3>
+      <p>Supports national, state, and county review of renter cost burden, severe burden, extremely low-income renter need, and related screening indicators.</p>
+      <a class="image-link" href="assets/dashboard_1_affordability_need.png">
+        <img src="assets/dashboard_1_affordability_need.png" alt="AHIP nationwide Housing Affordability and Housing Need dashboard with all states and counties selected.">
+      </a>
+    </section>
+    <section class="dashboard-card">
+      <span class="scope-label">Nationwide dashboard 2</span>
+      <h3>Housing Supply and Development Trends</h3>
+      <p>Supports national, state, county, and year-based review of authorized housing units, single-family and multifamily activity, and normalized authorization rates.</p>
+      <a class="image-link" href="assets/dashboard_2_supply_development.png">
+        <img src="assets/dashboard_2_supply_development.png" alt="AHIP nationwide Housing Supply and Development Trends dashboard with all states, counties, and years selected.">
+      </a>
+    </section>
+    <section class="dashboard-card">
+      <span class="scope-label">Nationwide dashboard 3</span>
+      <h3>Housing Priority-Area Identification</h3>
+      <p>Provides a transparent screening view to identify counties that may warrant deeper professional review. The score is not a funding, eligibility, zoning, or automated policy decision.</p>
+      <a class="image-link" href="assets/dashboard_3_priority_areas.png">
+        <img src="assets/dashboard_3_priority_areas.png" alt="AHIP nationwide Housing Priority-Area Identification dashboard with all states and counties selected.">
+      </a>
+    </section>
+  </div>
+
+  <section class="dashboard-card pilot">
+    <span class="scope-label">Local dashboard 4 - Miami-Dade pilot</span>
+    <h3>Miami-Dade Residential Permitting Process Improvement</h3>
+    <p>This 2025 local proof of concept presents housing-use permit volume and application-to-issuance time indicators. Long-duration records identify items for further operational review, not confirmed agency bottlenecks.</p>
+    <a class="image-link" href="assets/miami_dade_dashboard.png">
+      <img src="assets/miami_dade_dashboard.png" alt="AHIP dashboard showing 2025 Miami-Dade housing-use permit volume, application-to-issuance time, long-duration records, monthly trends, and elapsed-time distribution.">
+    </a>
+  </section>
+
   <h2>National framework, local proof of concept</h2>
   <p>AHIP is designed as a national housing decision-support framework. The Miami-Dade County permitting pilot is the first local operational proof of concept. Its reusable value is the controlled method: define the business question, validate local data, map terminology and workflow, approve KPIs, test quality, review results with subject-matter experts, and publish with clear limitations.</p>
 
-  <h2>Miami-Dade permitting dashboard example</h2>
-  <img src="assets/miami_dade_dashboard.png" alt="AHIP dashboard showing 2025 Miami-Dade housing-use permit volume, application-to-issuance time, long-duration records, monthly trends, and elapsed-time distribution.">
-
-  <h2>Public-use terms</h2>
-  <p>Except where otherwise noted, original toolkit narrative, definitions, tables, and templates are available under the <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International license</a>. Third-party data and separately credited materials remain subject to their own terms.</p>
 </main>
 <footer>
   <div class="wrap">Affordable Housing Intelligence Platform (AHIP) | Version 1.0 | Project Owner: Ms. Arshalouys Awediss</div>

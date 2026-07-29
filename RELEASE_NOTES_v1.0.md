@@ -9,9 +9,11 @@ Initial reviewed release containing:
 - A housing analytics reference guide covering official sources, KPIs, data quality, and local adaptation.
 - A responsible-use and public-access guide covering human review, limitations, versioning, and information boundaries.
 - PDF and editable DOCX versions of all three documents.
-- A selected AHIP dashboard image for public explanation.
+- Public examples of the three nationwide dashboards and the separate Miami-Dade local permitting pilot.
 
 ### Claims and boundaries
+
+- Dashboards 1-3 are nationwide analytical views; Dashboard 4 is the Miami-Dade local operational pilot.
 
 - No government adoption, endorsement, partnership, or national deployment is claimed.
 - Miami-Dade is a demonstration geography, not the geographic limit of AHIP.

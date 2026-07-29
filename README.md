@@ -18,6 +18,16 @@ The Affordable Housing Analytics Toolkit is the public-benefit component of the 
 
 Both PDF and editable DOCX formats are provided in the `docs` folder.
 
+## Dashboard scope
+
+AHIP includes three **nationwide** decision-support dashboards:
+
+1. Housing Affordability and Housing Need
+2. Housing Supply and Development Trends
+3. Housing Priority-Area Identification
+
+These dashboards use national public datasets and support state and county filtering where the underlying data are available. Dashboard 4 is a **2025 Miami-Dade County residential permitting pilot** demonstrating local operational adaptation. The Miami-Dade pilot is not the geographic limit of AHIP.
+
 ## Intended users
 
 Public agencies, housing organizations, affordable housing developers, engineering firms, nonprofits, lenders, researchers, PropTech and title companies, real estate attorneys, and policymakers may use these materials to support planning, operational review, and better-informed decisions.
@@ -25,10 +35,6 @@ Public agencies, housing organizations, affordable housing developers, engineeri
 ## Important limitations
 
 AHIP is a decision-support initiative. It does not make legal, policy, engineering, underwriting, appraisal, funding, staffing, enforcement, or permitting decisions. Forecasts are planning estimates, priority scores identify areas for further review, and local permitting results require jurisdiction-specific validation. No government adoption, endorsement, partnership, or national deployment is claimed.
-
-## License
-
-Except where otherwise noted, the original narrative, definitions, tables, and templates are licensed under the [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/). Third-party datasets, source publications, logos, trademarks, and separately credited materials remain subject to their own terms.
 
 ## Suggested citation
 
