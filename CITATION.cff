@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use the Affordable Housing Analytics Toolkit (AHIP), please cite it using the information below."
+title: "Affordable Housing Analytics Toolkit (AHIP)"
+version: "1.0"
+date-released: 2026-08-05
+type: software
+authors:
+  - family-names: "Awediss"
+    given-names: "Arshalouys"
+abstract: >-
+  A public-benefit housing analytics toolkit developed through the Affordable
+  Housing Intelligence Platform (AHIP). It provides a nationally applicable
+  decision-support framework, three nationwide housing dashboards, a separate
+  Miami-Dade County permitting pilot, housing analytics reference materials,
+  national replication guidance, data-quality controls, and responsible-AI
+  and human-review safeguards.
+keywords:
+  - affordable housing
+  - housing analytics
+  - business intelligence
+  - decision support
+  - housing affordability
+  - housing supply
+  - permitting
+  - responsible AI
+  - Power BI
+  - public data
+license: CC-BY-4.0
+repository-code: "https://github.com/arshoavedissian1989/affordable-housing-analytics-toolkit"
+url: "https://arshoavedissian1989.github.io/affordable-housing-analytics-toolkit/"
