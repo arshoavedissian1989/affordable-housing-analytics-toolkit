@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use the Affordable Housing Analytics Toolkit (AHIP), please cite it using the information below."
 title: "Affordable Housing Analytics Toolkit (AHIP)"
 version: "1.0"
-date-released: 2026-08-05
+date-released: 2026-08-06
 type: software
 authors:
   - family-names: "Awediss"
