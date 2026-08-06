@@ -5,6 +5,16 @@
 
 The Affordable Housing Analytics Toolkit is the public-benefit component of the Affordable Housing Intelligence Platform (AHIP). It presents a concise, reusable framework for housing analysis, national replication, permitting-process review, data-quality control, and responsible use of AI-assisted decision support.
 
+## Public access and formal publication
+
+- **Public website:** https://arshoavedissian1989.github.io/affordable-housing-analytics-toolkit/
+- **Interactive Power BI dashboard:** https://app.powerbi.com/view?r=eyJrIjoiNGZhNTliM2UtYjYyOS00ZGRiLTg1YzItMWYwMTY1YjJkYWE5IiwidCI6ImFjNzllNWE4LWUwZTQtNDM0Yi1hMjkyLTJjODliNWMyODM2NiIsImMiOjF9
+- **Formal GitHub Release v1.0:** https://github.com/arshoavedissian1989/affordable-housing-analytics-toolkit/releases/tag/v1.0
+- **Zenodo archive and permanent DOI:** https://doi.org/10.5281/zenodo.21827317
+
+The formal Version 1.0 release was published on August 6, 2026 and archived through Zenodo. The DOI identifies the exact archived v1.0 release package.
+
+
 ## Toolkit documents
 
 1. **AHIP Public Overview, Replication Framework and Miami-Dade Case Study**  
@@ -38,4 +48,4 @@ AHIP is a decision-support initiative. It does not make legal, policy, engineeri
 
 ## Suggested citation
 
-Awediss, Arshalouys. 2026. *Affordable Housing Analytics Toolkit (AHIP).* Version 1.0. Affordable Housing Intelligence Platform.
+Awediss, Arshalouys. 2026. *Affordable Housing Analytics Toolkit (AHIP).* Version 1.0. Zenodo. https://doi.org/10.5281/zenodo.21827317
